@@ -3,7 +3,9 @@
 public class Courier
 {
     public Guid Id { get; } = Guid.NewGuid();
-    public string Name { get; }
+    public required string Name { get; init; }
+
+    public Courier() { }
 
     public Courier(string name)
     {

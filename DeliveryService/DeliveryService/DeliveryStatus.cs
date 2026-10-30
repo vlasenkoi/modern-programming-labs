@@ -3,7 +3,8 @@
 public enum DeliveryStatus
 {
     Created,
+    CourierAssigned,
     InTransit,
-    Completed,
+    Delivered,
     Cancelled
 }
